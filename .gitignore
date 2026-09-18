@@ -1,0 +1,7 @@
+node_modules/
+.env
+data/
+*.log
+*.mp4
+Screen Recording*
+.tools/
