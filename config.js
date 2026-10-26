@@ -48,6 +48,7 @@ export const CONFIG = {
     noticePeriodDays: envInt("NOTICE_PERIOD_DAYS", 0),
     currentCtcLpa: envInt("CURRENT_CTC_LPA", 0),
     expectedCtcLpa: envInt("EXPECTED_CTC_LPA", 0),
+    dateOfBirth: process.env.DATE_OF_BIRTH || "",
     highestEducation: "Bachelor's Degree",
     educationCompleted: true,
     resumePath: path.join(__dirname, "Azhad_Ghufran_Resume_2026.pdf"),
